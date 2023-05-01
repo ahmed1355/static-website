@@ -7,126 +7,165 @@
   font-family: "Roboto", sans-serif;
 }
 
-nav{
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 16px ;
-    background-color: #cafdff;
-    align-items: center;
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+  background-color: #cafdff;
+  align-items: center;
 }
 
-.logo{
-    width: 150px;
-    height: 50px;
+.logo {
+  width: 150px;
+  height: 50px;
 }
-a{
-    color: black;
-    font-size: 24px;
-    font-weight: 700;
+a {
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
 }
-ul{
-    display: flex;
-
-}
-
-li{
-    list-style-type: none;
-    padding-left: 16px;
-}
-.logo2{
-    height: 300px;
-    width: 300px;
-}
-header{
-    background: #eadcff;   
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    height: calc(100vh - 70px);
-    padding: 24px;
-}
-h1{
-    font-size:72px ;
+ul {
+  display: flex;
 }
 
-.subheader{
-    font-size: 36px;
-    margin: 16px 0 24px 0 ;
+li {
+  list-style-type: none;
+  padding-left: 16px;
 }
-button{
-    border: none;
-    background: #05c7cf;
-    color: white;
-    padding: 8px 16px;
-    font-size: 24px;
-    cursor: pointer;
+.logo2 {
+  height: 300px;
+  width: 300px;
 }
-.row{
-    width: 100%;
-    max-width: 1300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header {
+  background: #eadcff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 70px);
+  padding: 24px;
+}
+h1 {
+  font-size: 72px;
+}
+
+.subheader {
+  font-size: 36px;
+  margin: 16px 0 24px 0;
+}
+button {
+  border: none;
+  background: #05c7cf;
+  color: white;
+  padding: 8px 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.row {
+    margin: 0 auto;
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #about,
 #discord,
-#about{
-    padding: 48px 0;    
-
+#contact ,
+footer{
+  padding: 48px 0;
 }
 
 /* about--sec */
 
-#about{
-background: #f8ffdc;
+#about {
+  background: #f8ffdc;
 }
 
-h2{
-    font-size: 60px;
-    text-align: center;
-    margin-bottom: 24px;
+h2 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 24px;
 }
 
-.sec_desc{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.sec_desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.about_img_wrap{
-width: 40%;
+.about_img_wrap {
+  width: 40%;
 }
 
-img{
-    width: 100%;
+img {
+  width: 100%;
 }
-.sec_desc_wrapper{
-    width: 60%;
+.sec_desc_wrapper {
+  width: 60%;
 }
 
 .sec_desc_wrapper,
-.about_img_wrap{
- padding: 0 24px;
+.about_img_wrap {
+  padding: 0 24px;
 }
 
-
-.sec_para_wrapper{
-    font-size: 20px;
-    line-height: 1.5;
-    margin-bottom: 24px;
+.sec_para_wrapper {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 24px;
 }
 
 /* discord */
-#discord{
-    background: #cefeff;
-        padding: 48px 0;    
-
-    
+#discord {
+  background: #cefeff;
+  padding: 48px 0;
 }
 
+/* contact
 
+*/
 
+#contact{
+    background: #dce9ff;
+}
 
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input,textarea{
+    margin-bottom: 24px;
+    padding: 6px 24px;
+    font-size: 20px;
+}
+                     
+
+/* footer
+ */
+
+ footer{
+    background: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ .footer_logo{
+    max-width: 480px;
+    margin-bottom: 16px;
+
+ }
+
+ .footer_links{
+    margin-bottom: 32px;
+ }
+ .footer_link{
+    padding: 0 16px;
+ }
